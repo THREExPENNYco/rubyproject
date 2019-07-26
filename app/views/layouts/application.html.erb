@@ -28,7 +28,7 @@
       </div> 
       <div class="col-5 links">
         <%= link_to 'Contribute', new_quote_path %> 
-        <%= link_to 'About', '#' %> 
+        <%= link_to 'About', about_path %> 
       </div>
     </header>
 
@@ -47,10 +47,10 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-6"> 
+        <div class="col-6", style="padding-top: 10px"> 
           <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote'%> 
         </div>  
-        <div class="col-6 footer-blurb"> 
+        <div class="col-6 footer-blurb", style="padding-top: 20px;"> 
         Proudly hacked by <a href="https://devounedwards.netlify.com/"> Devoun Edwards</a><br /> 
         Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com"> Learn to code here</a>
       </div>

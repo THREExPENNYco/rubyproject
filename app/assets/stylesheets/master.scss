@@ -73,3 +73,20 @@ h1 {
 .logo:hover { 
   text-decoration: none;
    }
+
+.about-header { 
+  margin-right: auto;
+  margin-left: auto; 
+ }
+
+ .generated-quotes { 
+  background-color: #f84342;
+  background-size: 1000px, 800px;
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 5px 2px 30px #888888; 
+  color: white;
+  font-size: 18px;
+  border-style: outset;
+  border: 10px; 
+}
