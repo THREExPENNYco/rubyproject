@@ -3,6 +3,7 @@
 
 .clear { 
   clear: both; 
+  padding-top: 30px; 
 }
 .circle {
     font-weight:bold;
@@ -13,10 +14,10 @@
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
-    margin: 10px 10px;
+    margin-left: auto;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -25,61 +26,72 @@
 }
 
 .slogan { 
+  text-align: right;
   font-family: orbitron;
-  text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   font: italic;
-  padding-top: 26px;
- }
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
  .links { 
-  padding-top: 26px;
-  color: black;
-  font-size: 25px;
-  border-bottom: 1px solid #dfdfdf; 
-
+  font-size: 24px;
+  font-family: orbitron;
+  padding-top: 20px;
+  color: #f84342;
+  margin-left: auto;
 }
 
 header { 
   border-top: 9px solid #222222;
- }
+  max-height: 300px;
+  padding-top: 30px;
+}
 
  hr { 
   clear: both;
-  }
+
+}
 
 h1 { 
   font-family: 'Orbitron', sans-serif;
- }
+  font-weight: bold;
+  font-size: 48px;
+}
 
  h2 { 
   font-family: 'Orbitron', sans-serif;
-  }
+  color: #dddddd;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 12px;
+}
 
 .next-quote { 
   color: red;
   font-family: century gothic;
   font: italic;
   font-size: 20px;
- }
+}
 
- .footer-blurb { 
+.footer-blurb { 
   font-family: century gothic;
   font-style: italic;
   text-align: right;
   font-size: 10px;
-  }
+}
 
 .logo:hover { 
   text-decoration: none;
-   }
+}
 
 .about-header { 
   margin-right: auto;
   margin-left: auto; 
- }
+}
 
- .generated-quotes { 
+.generated-quotes { 
   background-color: #f84342;
   background-size: 1000px, 800px;
   border-radius: 25px;
@@ -89,4 +101,39 @@ h1 {
   font-size: 18px;
   border-style: outset;
   border: 10px; 
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
+
+.profile-picture { 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 750px) { 
+  .link { 
+  text-align: center;
+  }
+}
+
+@media (max-width: 750px) { 
+  .footer-blurb { 
+    text-align: left;
+  }
+}
+
+ .modal {  font-family: orbitron;
+}
+
+::selection { 
+  color: black;
+}
+
+.number { 
+  text-align: center;
+  padding-bottom: 15px; 
+}
+
+.feet { 
+  padding-top: 500px;
+ }
