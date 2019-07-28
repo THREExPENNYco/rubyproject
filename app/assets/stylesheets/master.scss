@@ -42,6 +42,7 @@
   color: #f84342;
   text-align: right;
   margin: auto;
+  padding-left: 34px;
 }
 
 header { 
@@ -119,7 +120,7 @@ h1 {
 
 @media (max-width: 750px) { 
   .links { 
-    margin: auto;
+    margin-left: 10%; 
    }
  } 
 
@@ -138,6 +139,10 @@ h1 {
 .feet { 
   padding-top: 500px;
  }
+
+ .footer { 
+  border-radius: 12px;
+  }
 
  .authors { 
   font-size: 20px;
