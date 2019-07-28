@@ -14,7 +14,7 @@
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
-    margin-left: auto;
+    margin-left: 15%;
     text-align: center;
     color: #FFF;
     font-size: 9px;
@@ -40,7 +40,8 @@
   font-family: orbitron;
   padding-top: 20px;
   color: #f84342;
-  margin-left: auto;
+  text-align: right;
+  margin: auto;
 }
 
 header { 
@@ -111,16 +112,16 @@ h1 {
 }
 
 @media (max-width: 750px) { 
-  .link { 
-  text-align: center;
-  }
-}
-
-@media (max-width: 750px) { 
   .footer-blurb { 
     text-align: left;
   }
 }
+
+@media (max-width: 750px) { 
+  .links { 
+    margin: auto;
+   }
+ } 
 
  .modal {  font-family: orbitron;
 }
