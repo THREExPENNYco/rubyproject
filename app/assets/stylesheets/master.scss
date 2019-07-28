@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 .clear { 
-  clear: both; 
-  padding-top: 30px; 
+  clear: both;  
 }
 .circle {
     font-weight:bold;
@@ -36,7 +35,7 @@
 }
 
  .links { 
-  font-size: 24px;
+  font-size: 20px;
   font-family: orbitron;
   padding-top: 20px;
   color: #f84342;
@@ -103,7 +102,6 @@ h1 {
   font-size: 18px;
   border-style: outset;
   border: 10px; 
-  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -115,6 +113,7 @@ h1 {
 @media (max-width: 750px) { 
   .footer-blurb { 
     text-align: left;
+    font-size: 8px; 
   }
 }
 
@@ -144,9 +143,9 @@ h1 {
   }
 
 .footer-blurb { 
-   padding-top: 15px;
+   padding-top: 1px;
 }
 
 .footer-link { 
-   padding-top: 15px;
+   padding-top: 1px;
 }
