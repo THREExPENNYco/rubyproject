@@ -13,4 +13,4 @@ Splurty is a quote generator built with Ruby on Rails. Randomly generates a quot
  
  # Splurty Screenshot 
  
- ![Splurty Screenshot](https://github.com/THREExPENNYco/quiz/blob/master/splurtyscreenshot.PNG)
+ ![Splurty Screenshot](https://github.com/THREExPENNYco/rubyproject/blob/master/splurtyscreenshot.PNG)
