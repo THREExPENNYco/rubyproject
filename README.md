@@ -3,7 +3,7 @@ Splurty is a quote generator built with Ruby on Rails. Randomly generates a quot
 [Link to Splurty](https://splurty-devoun-edwards.herokuapp.com/)
 
 # Dependencies: 
- * Devise -- used for user authorization 
+ * Bootstrap -- used for UI elements
  * Simple Form -- used to generate form for quote 
  
  # Installation: 
